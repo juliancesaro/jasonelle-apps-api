@@ -2,7 +2,7 @@
   "main": {
     "$jason": {
       "head": {
-        "title": "{ ˃̵̑ᴥ˂̵̑}",
+        "title": "Citizen Science",
         "actions": {
           "$foreground": {
             "type": "$reload"
@@ -168,7 +168,7 @@
   "observations": {
     "$jason": {
       "head": {
-        "title": "{ ˃̵̑ᴥ˂̵̑}",
+        "title": "Citizen Science",
         "actions": {
           "$foreground": {
             "type": "$reload"
@@ -179,7 +179,7 @@
         "header": {
           "title": "Citizen Science",
           "menu": {
-            "text": "Tap me",
+            "text": "Your Profile",
             "style": {
               "color": "#0000ff",
               "font": "HelveticaNeue-Bold",
