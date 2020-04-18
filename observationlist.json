@@ -30,7 +30,7 @@
                 "color": "#0000ff",
                 "font": "HelveticaNeue-Bold",
                 "size": 17,
-                "padding": 10
+                "padding": 15
               },
               "action": {
                 "type": "$util.toast",
@@ -75,7 +75,7 @@
                       "text": "Read More",
                       "style": {
                         "font": "Courier-Bold",
-                        "padding": 15,
+                        "padding": 10,
                         "size": 14
                       },
                       "href": {
