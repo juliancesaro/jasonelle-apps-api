@@ -80,7 +80,9 @@
                       },
                       "href": {
                         "url": "https://raw.githubusercontent.com/juliancesaro/jasonette-apps-api/master/observationdetail.json",
-                        "view": "jason"
+                        "options": {
+                          "id": "{{id+1}}"
+                        }
                       }
                     }
                   ]

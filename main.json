@@ -59,10 +59,9 @@
                     "font": "HelveticaNeue",
                     "size": 20
                   },
-                  "text": "Obervations",
+                  "text": "Observations",
                   "href": {
-                    "url": "https://raw.githubusercontent.com/juliancesaro/jasonette-apps-api/master/observationlist.json",
-                    "view": "jason"
+                    "url": "https://raw.githubusercontent.com/juliancesaro/jasonette-apps-api/master/observationlist.json"
                   }
                 },
                 {

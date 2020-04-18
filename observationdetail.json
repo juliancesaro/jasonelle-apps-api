@@ -23,7 +23,7 @@
       "templates": {
         "body": {
           "header": {
-            "title": "Observation Details",
+            "title": "Observation {{$params.id}}",
             "menu": {
               "text": "Profile",
               "style": {
@@ -41,14 +41,96 @@
             }
           },
           "sections": {
-            "items": [
+            "{{#each $jason}}": [
               {
-                "type": "label",
-                "text": "Observation Details",
-                "style": {
-                  "font": "Courier-Bold",
-                  "padding": 10,
-                  "size": 20
+                "{{#if (id=='3') }}": {
+                  "items": [
+                    {
+                      "type": "vertical",
+                      "components": [
+                        {
+                          "type": "label",
+                          "text": "Location: {{location}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Timestamp: {{timestamp}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Weather: {{weather}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Wind: {{wind}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Height: {{height}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Girth: {{girth}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Leaf size: {{leaf_size}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Leaf shape: {{leaf_shape}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Bark colour: {{bark_colour}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Bark texture: {{bark_texture}}",
+                          "style": {
+                            "font": "Courier",
+                            "size": 14
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               }
             ]
