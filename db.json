@@ -13,7 +13,7 @@
         "header": {
           "title": "Citizen Science",
           "menu": {
-            "text": "Tap me",
+            "text": "Your Profile",
             "style": {
               "color": "#0000ff",
               "font": "HelveticaNeue-Bold",
@@ -85,14 +85,31 @@
                   },
                   {
                     "type": "label",
-                    "text": "{ ˃̵̑ᴥ˂̵̑}",
                     "style": {
-                      "align": "center",
-                      "font": "HelveticaNeue-Bold",
-                      "size": 50
+                      "align": "left",
+                      "color": "#000000",
+                      "font": "HelveticaNeue",
+                      "size": 20
+                    },
+                    "text": "Leaderboard",
+                    "href": {
+                      "url": "https://jasonelle.com/docs",
+                      "view": "web",
+                      "options": {
+                        "reader": true
+                      }
                     }
                   }
                 ]
+              },
+              {
+                "type": "label",
+                "text": "Top 10 Observations",
+                "style": {
+                  "align": "left",
+                  "font": "Courier-Bold",
+                  "size": 22
+                }
               },
               {
                 "type": "label",
