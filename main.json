@@ -1,0 +1,103 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Citizen Science",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "Home",
+        "menu": {
+          "text": "Profile",
+          "style": {
+            "color": "#0000ff",
+            "font": "HelveticaNeue-Bold",
+            "size": "17",
+            "padding": "10"
+          },
+          "action": {
+            "type": "$util.toast",
+            "options": {
+              "text": "Good job!"
+            }
+          }
+        }
+      },
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": 30,
+                "spacing": 20,
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "style": {
+                    "align": "left",
+                    "color": "#000000",
+                    "font": "HelveticaNeue",
+                    "size": 20
+                  },
+                  "text": "Obervations",
+                  "href": {
+                    "url": "https://raw.githubusercontent.com/juliancesaro/jasonette-apps-api/master/observationlist.json",
+                    "view": "jason"
+                  }
+                },
+                {
+                  "type": "label",
+                  "style": {
+                    "align": "left",
+                    "color": "#000000",
+                    "font": "HelveticaNeue",
+                    "size": 20
+                  },
+                  "text": "Leaderboard - Coming soon...",
+                  "href": {
+                    "url": "https://jasonelle.com/docs",
+                    "view": "web",
+                    "options": {
+                      "reader": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "text": "Top 10 Observations",
+              "style": {
+                "align": "left",
+                "font": "Courier-Bold",
+                "size": 22
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "left",
+                "padding": 10,
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": 20
+              },
+              "text": "Coming soon..."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
