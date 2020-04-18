@@ -1,0 +1,154 @@
+{
+  "main": {
+    "$jason": {
+      "head": {
+        "title": "{ ˃̵̑ᴥ˂̵̑}",
+        "actions": {
+          "$foreground": {
+            "type": "$reload"
+          }
+        }
+      },
+      "body": {
+        "header": {
+          "title": "Citizen Science",
+          "menu": {
+            "text": "Tap me",
+            "style": {
+              "color": "#0000ff",
+              "font": "HelveticaNeue-Bold",
+              "size": "17"
+            },
+            "action": {
+              "type": "$util.toast",
+              "options": {
+                "text": "Good job!"
+              }
+            }
+          }
+        },
+        "style": {
+          "background": "#ffffff",
+          "border": "none"
+        },
+        "sections": [
+          {
+            "items": [
+              {
+                "type": "label",
+                "text": "Home",
+
+                "style": {
+                  "align": "center",
+                  "font": "Courier-Bold",
+                  "size": 26
+                }
+              },
+              {
+                "type": "vertical",
+                "style": {
+                  "padding": 30,
+                  "spacing": 20,
+                  "align": "center"
+                },
+                "components": [
+                  {
+                    "type": "label",
+                    "style": {
+                      "align": "left",
+                      "color": "#000000",
+                      "font": "HelveticaNeue",
+                      "size": 20
+                    },
+                    "text": "Obervations",
+                    "href": {
+                      "url": "C:\\Users\\julia\\OneDrive\\Uni\\Jasonelle\\app\\src\\main\\assets\\file\\observationlist.json",
+                      "view": "web",
+                      "options": {
+                        "reader": true
+                      }
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "style": {
+                      "align": "left",
+                      "color": "#000000",
+                      "font": "HelveticaNeue",
+                      "size": 20
+                    },
+                    "text": "Users",
+                    "href": {
+                      "url": "https://jasonelle.com/docs",
+                      "view": "web",
+                      "options": {
+                        "reader": true
+                      }
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "text": "{ ˃̵̑ᴥ˂̵̑}",
+                    "style": {
+                      "align": "center",
+                      "font": "HelveticaNeue-Bold",
+                      "size": 50
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "label",
+                "style": {
+                  "align": "left",
+                  "padding": 10,
+                  "color": "#000000",
+                  "font": "HelveticaNeue",
+                  "size": 20
+                },
+                "text": "Check out Live DEMO",
+                "href": {
+                  "url": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/jasonpedia/demo.json",
+                  "fresh": true
+                }
+              },
+              {
+                "type": "label",
+                "style": {
+                  "align": "left",
+                  "padding": 10,
+                  "color": "#000000",
+                  "font": "HelveticaNeue",
+                  "size": 20
+                },
+                "text": "Watch the tutorial video",
+                "href": {
+                  "url": "https://www.youtube.com/watch?v=hfevBAAfCMQ",
+                  "view": "web"
+                }
+              },
+              {
+                "type": "label",
+                "style": {
+                  "align": "left",
+                  "padding": 10,
+                  "color": "#000000",
+                  "font": "HelveticaNeue",
+                  "size": 20
+                },
+                "text": "View documentation",
+                "href": {
+                  "url": "https://jasonelle.com/docs",
+                  "view": "web",
+                  "options": {
+                    "reader": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
