@@ -29,8 +29,8 @@
               "style": {
                 "color": "#0000ff",
                 "font": "HelveticaNeue-Bold",
-                "size": "17",
-                "padding": "10"
+                "size": 17,
+                "padding": 10
               },
               "action": {
                 "type": "$util.toast",
@@ -48,15 +48,11 @@
                   "text": "Observation {{id+1}}",
                   "style": {
                     "font": "Courier-Bold",
-                    "size": 20,
-                    "left": 30
+                    "size": 20
                   }
                 },
                 {
                   "type": "vertical",
-                  "style": {
-                    "left": 30
-                  },
                   "components": [
                     {
                       "type": "label",
@@ -79,6 +75,7 @@
                       "text": "Read More",
                       "style": {
                         "font": "Courier-Bold",
+                        "padding": 15,
                         "size": 14
                       },
                       "href": {

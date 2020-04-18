@@ -47,9 +47,8 @@
                 "text": "Observation Details",
                 "style": {
                   "font": "Courier-Bold",
-                  "padding": 30,
-                  "size": 20,
-                  "left": 30
+                  "padding": 10,
+                  "size": 20
                 }
               }
             ]

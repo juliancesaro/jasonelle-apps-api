@@ -40,14 +40,13 @@
               "style": {
                 "align": "left",
                 "font": "Courier-Bold",
-                "padding": 30,
+                "padding": 10,
                 "size": 22
               }
             },
             {
               "type": "vertical",
               "style": {
-                "left": 30,
                 "spacing": 20,
                 "align": "center"
               },
@@ -98,7 +97,6 @@
             {
               "type": "vertical",
               "style": {
-                "left": 30,
                 "spacing": 20,
                 "align": "center"
               },
