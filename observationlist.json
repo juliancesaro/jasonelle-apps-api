@@ -48,11 +48,15 @@
                   "text": "Observation {{id+1}}",
                   "style": {
                     "font": "Courier-Bold",
-                    "size": 20
+                    "size": 20,
+                    "left": 30
                   }
                 },
                 {
                   "type": "vertical",
+                  "style": {
+                    "left": 30
+                  },
                   "components": [
                     {
                       "type": "label",
@@ -74,7 +78,7 @@
                       "type": "label",
                       "text": "Read More",
                       "style": {
-                        "font": "Courier",
+                        "font": "Courier-Bold",
                         "size": 14
                       },
                       "href": {
