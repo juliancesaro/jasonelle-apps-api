@@ -160,50 +160,93 @@
     "$jason": {
       "head": {
         "title": "Citizen Science",
+        "description": "Citizen Science observations list view",
         "actions": {
-          "$foreground": {
-            "type": "$reload"
-          }
-        }
-      },
-      "body": {
-        "header": {
-          "title": "Citizen Science",
-          "menu": {
-            "text": "Profile",
-            "style": {
-              "color": "#0000ff",
-              "font": "HelveticaNeue-Bold",
-              "size": "17",
-              "padding": "10"
+          "$pull": {
+            "trigger": "reload"
+          },
+          "$load": {
+            "trigger": "reload"
+          },
+          "reload": {
+            "type": "$network.request",
+            "options": {
+              "url": "https://my-json-server.typicode.com/stevecassidy/comp2110-api/observations"
             },
-            "action": {
-              "type": "$util.toast",
-              "options": {
-                "text": "Good job!"
-              }
+            "success": {
+              "type": "$render"
             }
           }
         },
-        "style": {
-          "background": "#ffffff",
-          "border": "none"
-        },
-        "sections": [
-          {
-            "items": [
-              {
-                "type": "label",
-                "text": "Obervations",
+        "templates": {
+          "body": {
+            "header": {
+              "title": "Observations",
+              "menu": {
+                "text": "Profile",
                 "style": {
-                  "align": "center",
-                  "font": "Courier-Bold",
-                  "size": 26
+                  "color": "#0000ff",
+                  "font": "HelveticaNeue-Bold",
+                  "size": "17",
+                  "padding": "10"
+                },
+                "action": {
+                  "type": "$util.toast",
+                  "options": {
+                    "text": "Coming soon!"
+                  }
                 }
               }
-            ]
+            },
+            "sections": {
+              "{{#each $jason}}": {
+                "items": [
+                  {
+                    "type": "label",
+                    "text": "Observation {{id+1}}",
+                    "style": {
+                      "font": "Courier-Bold",
+                      "size": 20
+                    }
+                  },
+                  {
+                    "type": "vertical",
+                    "components": [
+                      {
+                        "type": "label",
+                        "text": "Location: {{location}}",
+                        "style": {
+                          "font": "Courier",
+                          "size": 14
+                        }
+                      },
+                      {
+                        "type": "label",
+                        "text": "Weather: {{weather}}",
+                        "style": {
+                          "font": "Courier",
+                          "size": 14
+                        }
+                      },
+                      {
+                        "type": "label",
+                        "text": "Read More",
+                        "style": {
+                          "font": "Courier",
+                          "size": 14
+                        },
+                        "href": {
+                          "url": "https://my-json-server.typicode.com/juliancesaro/jasonette-apps-api/observationdetail",
+                          "view": "jason"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
           }
-        ]
+        }
       }
     }
   },
