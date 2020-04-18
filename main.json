@@ -47,7 +47,7 @@
             {
               "type": "vertical",
               "style": {
-                "padding": 30,
+                "padding-left": 30,
                 "spacing": 20,
                 "align": "center"
               },
@@ -98,7 +98,7 @@
             {
               "type": "vertical",
               "style": {
-                "padding": 30,
+                "padding-left": 30,
                 "spacing": 20,
                 "align": "center"
               },
@@ -107,7 +107,6 @@
                   "type": "label",
                   "style": {
                     "align": "left",
-                    "padding": 10,
                     "color": "#000000",
                     "font": "HelveticaNeue",
                     "size": 20

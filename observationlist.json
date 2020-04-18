@@ -42,9 +42,6 @@
           },
           "sections": {
             "{{#each $jason}}": {
-              "style": {
-                "padding": 30
-              },
               "items": [
                 {
                   "type": "label",
