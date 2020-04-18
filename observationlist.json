@@ -35,13 +35,16 @@
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": "Coming soon!"
+                  "text": "Coming soon..."
                 }
               }
             }
           },
           "sections": {
             "{{#each $jason}}": {
+              "style": {
+                "padding": 30
+              },
               "items": [
                 {
                   "type": "label",

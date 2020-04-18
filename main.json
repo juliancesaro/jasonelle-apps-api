@@ -22,7 +22,7 @@
           "action": {
             "type": "$util.toast",
             "options": {
-              "text": "Good job!"
+              "text": "Coming soon..."
             }
           }
         }
@@ -34,6 +34,16 @@
       "sections": [
         {
           "items": [
+            {
+              "type": "label",
+              "text": "Links",
+              "style": {
+                "align": "left",
+                "font": "Courier-Bold",
+                "padding": 30,
+                "size": 22
+              }
+            },
             {
               "type": "vertical",
               "style": {
@@ -81,19 +91,30 @@
               "style": {
                 "align": "left",
                 "font": "Courier-Bold",
+                "padding": 30,
                 "size": 22
               }
             },
             {
-              "type": "label",
+              "type": "vertical",
               "style": {
-                "align": "left",
-                "padding": 10,
-                "color": "#000000",
-                "font": "HelveticaNeue",
-                "size": 20
+                "padding": 30,
+                "spacing": 20,
+                "align": "center"
               },
-              "text": "Coming soon..."
+              "components": [
+                {
+                  "type": "label",
+                  "style": {
+                    "align": "left",
+                    "padding": 10,
+                    "color": "#000000",
+                    "font": "HelveticaNeue",
+                    "size": 20
+                  },
+                  "text": "Coming soon..."
+                }
+              ]
             }
           ]
         }

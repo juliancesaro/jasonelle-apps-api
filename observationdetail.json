@@ -23,7 +23,7 @@
       "templates": {
         "body": {
           "header": {
-            "title": "Observation Information",
+            "title": "Observation Details",
             "menu": {
               "text": "Profile",
               "style": {
@@ -35,53 +35,23 @@
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": "Coming soon!"
+                  "text": "Coming soon..."
                 }
               }
             }
           },
           "sections": {
-            "{{#each $jason}}": {
-              "items": [
-                {
-                  "type": "label",
-                  "text": "Observation {{id+1}}",
-                  "style": {
-                    "font": "Courier-Bold",
-                    "size": 20
-                  }
-                },
-                {
-                  "type": "vertical",
-                  "components": [
-                    {
-                      "type": "label",
-                      "text": "Location: {{location}}",
-                      "style": {
-                        "font": "Courier",
-                        "size": 14
-                      }
-                    },
-                    {
-                      "type": "label",
-                      "text": "Weather: {{weather}}",
-                      "style": {
-                        "font": "Courier",
-                        "size": 14
-                      }
-                    },
-                    {
-                      "type": "label",
-                      "text": "Read More",
-                      "style": {
-                        "font": "Courier",
-                        "size": 14
-                      }
-                    }
-                  ]
+            "items": [
+              {
+                "type": "label",
+                "text": "Observation Details",
+                "style": {
+                  "font": "Courier-Bold",
+                  "padding": 30,
+                  "size": 20
                 }
-              ]
-            }
+              }
+            ]
           }
         }
       }
