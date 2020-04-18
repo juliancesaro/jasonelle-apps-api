@@ -62,7 +62,7 @@
                     },
                     "text": "Obervations",
                     "href": {
-                      "url": "C:\\Users\\julia\\OneDrive\\Uni\\Jasonelle\\app\\src\\main\\assets\\file\\observationlist.json",
+                      "url": "https://my-json-server.typicode.com/juliancesaro/jasonette-apps-api/observations",
                       "view": "web",
                       "options": {
                         "reader": true
@@ -143,6 +143,56 @@
                   "options": {
                     "reader": true
                   }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "observations": {
+    "$jason": {
+      "head": {
+        "title": "{ ˃̵̑ᴥ˂̵̑}",
+        "actions": {
+          "$foreground": {
+            "type": "$reload"
+          }
+        }
+      },
+      "body": {
+        "header": {
+          "title": "Citizen Science",
+          "menu": {
+            "text": "Tap me",
+            "style": {
+              "color": "#0000ff",
+              "font": "HelveticaNeue-Bold",
+              "size": "17"
+            },
+            "action": {
+              "type": "$util.toast",
+              "options": {
+                "text": "Good job!"
+              }
+            }
+          }
+        },
+        "style": {
+          "background": "#ffffff",
+          "border": "none"
+        },
+        "sections": [
+          {
+            "items": [
+              {
+                "type": "label",
+                "text": "Obervations",
+                "style": {
+                  "align": "center",
+                  "font": "Courier-Bold",
+                  "size": 26
                 }
               }
             ]
