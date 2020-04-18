@@ -63,10 +63,7 @@
                     "text": "Obervations",
                     "href": {
                       "url": "https://my-json-server.typicode.com/juliancesaro/jasonette-apps-api/observations",
-                      "view": "web",
-                      "options": {
-                        "reader": true
-                      }
+                      "view": "jason"
                     }
                   },
                   {
